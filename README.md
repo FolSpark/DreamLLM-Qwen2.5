@@ -16,7 +16,7 @@ The DreamLLM trained from scratch by myself uses the same data as the original D
 
 I have made a lot of improvements to the code, supporting training in all stages. In `omni/models/dreamllm_qwen2`, the main trunk of the Qwen.5 model is used, and it also supports CLIP/InternViT, SD2.1/SD3.5 as model components.
 
-# data comes from
+# Model performance
 
 DPO is trained using the dataset of [MM-RLHF](https://huggingface.co/datasets/yifanzhang114/MM-RLHF).
 
@@ -42,7 +42,6 @@ Vicuna-CLIP-SD2.1 and Vicuna-CLIP-SD2.1* data comes from https://openreview.net/
 |                      |            |          |           |          |          |          |               |
 | Vicuna-CLIP-SD2.1    | **115.4**      | **17.4**     | 56.6      | 44.3     | 45.8     | 34.9     | 35.9          |
 | Vicuna-CLIP-SD2.1*   | 103.7      | 8.4      | 72.9      | 52.2     | 49.3     | 41.8     | 36.6          |
-|                      |            |          |           |          |          |          |               |
 
 ## Image Generation Evaluation
 
@@ -61,7 +60,6 @@ Vicuna-CLIP-SD2.1 and Vicuna-CLIP-SD2.1* data comes from https://openreview.net/
 |                          |        |
 | Vicuna-CLIP-SD2.1-Stage1 | 8.76(+~2)   |
 | Vicuna-CLIP-SD2.1        | 8.46(+~2)   |
-|                          |        |
 
 In the original text of DreamLLm, Vicuna-CLIP-SD2.1 and Vicuna-CLIP-SD2.1 were run 8 times, and the best one among 8 images was selected for each figure. All my models were only tested once, with an approximate error of 2~3.
 

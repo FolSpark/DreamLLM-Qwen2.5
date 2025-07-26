@@ -22,7 +22,7 @@ DPO is trained using the dataset of [MM-RLHF](https://huggingface.co/datasets/yi
 
 *indicates that only the comprehension data of LLaVA1.5 is used for the model's third-stage training.
 
-Vicuna-CLIP-SD2.1 and Vicuna-CLIP-SD2.1* data comes from https://openreview.net/forum?id=y01KGvd9Bw
+Vicuna-CLIP-SD2.1 and Vicuna-CLIP-SD2.1* data comes from paper(https://openreview.net/forum?id=y01KGvd9Bw).
 
 ## Multimodal Comprehension Assessment
 
